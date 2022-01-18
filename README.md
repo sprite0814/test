@@ -1,4 +1,5 @@
-
+# Install
+composer install
 
 # Migration and DB seeder (after changing your DB settings in .env)
 php artisan migrate --seed
