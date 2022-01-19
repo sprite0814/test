@@ -104,11 +104,12 @@ export default {
       loading: true,
       listQuery: {
         page: 1,
-        limit: 12,
+        limit: 10,
         courseName: '',
         userName: '',
       },
       statusOptions: [
+        { statusID: 0, statusName: 'All' },
         { statusID: 1, statusName: 'Not Started' },
         { statusID: 2, statusName: 'In Progress' },
         { statusID: 3, statusName: 'Completed' },
