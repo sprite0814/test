@@ -1,6 +1,9 @@
 # Install
 composer update
 
+# Generate New Key
+php artisan key:generate
+
 # Migration and DB seeder (after changing your DB settings in .env)
 php artisan migrate --seed
 
